@@ -1,1 +1,1 @@
-This will be for ITCS 4230 second project.
+This will be for the second ITCS 4230 project.
