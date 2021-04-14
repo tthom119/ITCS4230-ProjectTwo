@@ -1,0 +1,1 @@
+hitPoints -= 30;

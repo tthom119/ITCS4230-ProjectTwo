@@ -1,6 +1,4 @@
-if(instance_exists(obj_enemy1)){
-	health -= obj_enemy1.damage;
-}
+health -= 30;
 if(health <= 0){
 	instance_destroy();
 	global.game_over = true;
@@ -8,4 +6,3 @@ if(health <= 0){
 else{
 	instance_destroy(other);
 }
-
