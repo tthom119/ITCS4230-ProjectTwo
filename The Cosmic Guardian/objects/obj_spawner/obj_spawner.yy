@@ -23,7 +23,7 @@
     {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"room_speed * 30","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spawn_time","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"room_speed * 15","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spawn_time","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":5,"value":"obj_power_up","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spawn_object","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
