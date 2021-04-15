@@ -1,4 +1,5 @@
 if(global.game_over){
-	game_restart();
-	global.game_over = false
+	room_goto(LevelOne);
+	global.game_over = false;
+	health = 100;
 }
