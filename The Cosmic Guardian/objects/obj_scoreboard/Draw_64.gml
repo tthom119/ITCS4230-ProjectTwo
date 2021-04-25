@@ -35,5 +35,5 @@ if(instance_exists(obj_player) and obj_player.isBuffed){
 	draw_text(100, 50, "Damage doubled!");
 }
 if(instance_exists(obj_enemy3) and obj_enemy3.isSlowed){
-	draw_text(100, 50, "Enemies slowed!");
+	draw_text(100, 75, "Enemies slowed!");
 }
