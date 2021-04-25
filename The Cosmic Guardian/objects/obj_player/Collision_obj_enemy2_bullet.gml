@@ -1,5 +1,5 @@
 if(instance_exists(obj_enemy2)){
-	health -= obj_enemy1.damage;
+	health -= obj_enemy2.damage;
 }
 if(health <= 0){
 	instance_destroy();

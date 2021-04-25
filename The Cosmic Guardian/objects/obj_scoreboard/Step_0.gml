@@ -6,5 +6,6 @@ if(!instance_exists(obj_enemy1)){
 }if(!instance_exists(obj_enemy2)){
 	if(room == LevelTwo){
 		room_goto_next();
+		health = 100;
 }
 }

@@ -3,7 +3,7 @@
     "name": "spr_marker",
     "path": "sprites/spr_marker/spr_marker.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": false,
   "spriteMaskId": null,
   "persistent": false,

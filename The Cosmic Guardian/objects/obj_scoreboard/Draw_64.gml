@@ -19,3 +19,21 @@ if(instance_exists(Blue_Enemy_Ship2)){
 	var enemyHealth = (Blue_Enemy_Ship2.hitPoints / Blue_Enemy_Ship2.HP) * 100
 	draw_healthbar(1100, 50, 1296, 54, enemyHealth, c_black, c_red, c_aqua, 0, true, true);
 }
+if(instance_exists(EnemyShip3_first)){
+	var enemyHealth = (EnemyShip3_first.hitPoints / EnemyShip3_first.HP) * 100
+	draw_healthbar(1100, 30, 1296, 34, enemyHealth, c_black, c_red, c_dkgray, 0, true, true);
+}
+if(instance_exists(EnemyShip3_second)){
+	var enemyHealth = (EnemyShip3_second.hitPoints / EnemyShip3_second.HP) * 100
+	draw_healthbar(1100, 50, 1296, 54, enemyHealth, c_black, c_red, c_dkgray, 0, true, true);
+}
+if(instance_exists(EnemyShip3_last)){
+	var enemyHealth = (EnemyShip3_last.hitPoints / EnemyShip3_last.HP) * 100
+	draw_healthbar(1100, 70, 1296, 74, enemyHealth, c_black, c_red, c_dkgray, 0, true, true);
+}
+if(instance_exists(obj_player) and obj_player.isBuffed){
+	draw_text(100, 50, "Damage doubled!");
+}
+if(instance_exists(obj_enemy3) and obj_enemy3.isSlowed){
+	draw_text(100, 50, "Enemies slowed!");
+}
