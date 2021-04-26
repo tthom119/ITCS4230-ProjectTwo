@@ -14,7 +14,7 @@ if can_shoot{
 		
 		if(isBuffed){
 			inst.sprite_index = spr_powered_player_bullet;
-			inst.speed = 20;
+			inst.speed = 25;
 		}
 		else{
 			inst.sprite_index = spr_player_bullet;

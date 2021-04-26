@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"bullet_speed","path":"objects/obj_enemy1_bullet/obj_enemy1_bullet.yy",},"objectId":{"name":"obj_enemy1_bullet","path":"objects/obj_enemy1_bullet/obj_enemy1_bullet.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"bullet_speed","path":"objects/obj_enemy1_bullet/obj_enemy1_bullet.yy",},"objectId":{"name":"obj_enemy1_bullet","path":"objects/obj_enemy1_bullet/obj_enemy1_bullet.yy",},"value":"18","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",
