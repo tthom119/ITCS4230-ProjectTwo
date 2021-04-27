@@ -5,7 +5,7 @@ if (global.game_over){
 }
 if(instance_exists(obj_player)){
 	 draw_healthbar(32,21,228,24,health,c_black,c_red,c_lime,0,true,true);
-	// draw_text(32,50, string(health));
+	 draw_text(32,50, string(health));
 }
 if(instance_exists(EnemyShip)){
 	var enemyHealth = (EnemyShip.hitPoints / EnemyShip.HP) * 100

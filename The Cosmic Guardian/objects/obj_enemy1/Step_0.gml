@@ -10,6 +10,7 @@ if can_shoot{
 		if(instance_exists(obj_player)){
 			var bullet = instance_create_layer(x,y, "Instances", bullet_shot);
 			bullet.direction = point_direction(x, y, obj_player.x, obj_player.y);
+			bullet.parent = id;
 		}
 	}
 

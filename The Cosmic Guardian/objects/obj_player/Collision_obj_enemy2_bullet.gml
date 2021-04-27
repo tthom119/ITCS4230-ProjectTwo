@@ -1,11 +1,6 @@
 if(instance_exists(obj_enemy2)){
-	if(canDamage){
-		if(alarm[1] < 0){
-			alarm[1] = damage_time;
-		}
-		health -= obj_enemy2.damage;
-		canDamage = false;
-	}
+		var enemy = other.parent;
+		health -= enemy.damage;
 }
 if(health <= 0){
 	instance_destroy();
