@@ -15,9 +15,11 @@ if can_shoot{
 		if(isBuffed){
 			inst.sprite_index = spr_powered_player_bullet;
 			inst.speed = 25;
+			audio_play_sound(snd_laser, 1, false);
 		}
 		else{
 			inst.sprite_index = spr_player_bullet;
+			audio_play_sound(snd_bullet, 1, false);
 		}
 	}
 }
