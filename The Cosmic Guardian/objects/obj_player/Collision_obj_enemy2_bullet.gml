@@ -1,4 +1,4 @@
-if(instance_exists(obj_enemy2)){
+if(instance_exists(obj_enemy2) and canDamage){
 		var enemy = other.parent;
 		health -= enemy.damage;
 }

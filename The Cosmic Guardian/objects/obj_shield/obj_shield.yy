@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_slow",
-    "path": "sprites/spr_slow/spr_slow.yy",
+    "name": "spr_shield",
+    "path": "sprites/spr_shield/spr_shield.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,13 +27,15 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"buff_time","path":"objects/obj_power_up/obj_power_up.yy",},"objectId":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},"value":"room_speed * 5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Player",
     "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_slow",
+  "name": "obj_shield",
   "tags": [],
   "resourceType": "GMObject",
 }
