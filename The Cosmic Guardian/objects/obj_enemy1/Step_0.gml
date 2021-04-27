@@ -1,4 +1,4 @@
-if begin_shooting == false{
+if !can_shoot{
 	if alarm[11] < 0{
 		alarm[11] = start_shooting;
 	}

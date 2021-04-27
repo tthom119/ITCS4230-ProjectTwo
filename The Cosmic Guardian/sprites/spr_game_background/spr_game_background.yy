@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 255,
+  "bbox_right": 1919,
   "bbox_top": 0,
-  "bbox_bottom": 255,
+  "bbox_bottom": 1184,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 256,
-  "height": 256,
+  "width": 1920,
+  "height": 1185,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd446ca7-072c-4468-b9b6-4d72a1860d8c","path":"sprites/spr_game_background/spr_game_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd446ca7-072c-4468-b9b6-4d72a1860d8c","path":"sprites/spr_game_background/spr_game_background.yy",},"LayerId":{"name":"c73a7e40-af10-4e00-821f-b6a7d839b5b4","path":"sprites/spr_game_background/spr_game_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_game_background","path":"sprites/spr_game_background/spr_game_background.yy",},"resourceVersion":"1.0","name":"cd446ca7-072c-4468-b9b6-4d72a1860d8c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a2a2a889-7bfe-491c-9e82-10e8f97d4907","path":"sprites/spr_game_background/spr_game_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a2a2a889-7bfe-491c-9e82-10e8f97d4907","path":"sprites/spr_game_background/spr_game_background.yy",},"LayerId":{"name":"b7c54654-17f7-476e-a088-86377efa22fa","path":"sprites/spr_game_background/spr_game_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_background","path":"sprites/spr_game_background/spr_game_background.yy",},"resourceVersion":"1.0","name":"a2a2a889-7bfe-491c-9e82-10e8f97d4907","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_game_background","path":"sprites/spr_game_background/spr_game_background.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f2dd7363-aafe-4724-a5fb-9acdbf367107","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd446ca7-072c-4468-b9b6-4d72a1860d8c","path":"sprites/spr_game_background/spr_game_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f9197bf0-99a2-44f2-8452-e9355c78f548","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a2a2a889-7bfe-491c-9e82-10e8f97d4907","path":"sprites/spr_game_background/spr_game_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c73a7e40-af10-4e00-821f-b6a7d839b5b4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b7c54654-17f7-476e-a088-86377efa22fa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_game_background",
