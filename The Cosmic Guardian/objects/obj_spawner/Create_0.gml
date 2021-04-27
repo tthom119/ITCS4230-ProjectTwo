@@ -1,2 +1,2 @@
 canSpawn = false;
-alarm[2] = spawn_time;
+begin_spawning = false;

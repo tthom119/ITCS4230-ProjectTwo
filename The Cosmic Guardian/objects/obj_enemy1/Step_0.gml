@@ -2,7 +2,6 @@ if !begin_shooting{
 	if alarm[11] < 0{
 		alarm[11] = start_shooting;
 	}
-	
 }
 if can_shoot and begin_shooting{
 		can_shoot = false;

@@ -12,7 +12,7 @@ if(instance_exists(obj_player)){
 		draw_text(100, 50, "Damage doubled!");
 	}
 	if(!obj_player.canDamage){
-		draw_text(120, 75, "Shielded from damage!");
+		draw_text(125, 75, "Shielded from damage!");
 	}
 }
 
