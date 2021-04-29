@@ -4,6 +4,7 @@
     {"id":{"name":"End","path":"rooms/End/End.yy",},"order":3,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":4,},
     {"id":{"name":"snd_shield","path":"sounds/snd_shield/snd_shield.yy",},"order":1,},
+    {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},"order":6,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"order":2,},
     {"id":{"name":"spr_shield","path":"sprites/spr_shield/spr_shield.yy",},"order":5,},

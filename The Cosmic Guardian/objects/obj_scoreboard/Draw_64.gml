@@ -9,9 +9,11 @@ if(instance_exists(obj_player)){
 }
 if(instance_exists(obj_player)){
 	if(obj_player.isBuffed){
+		draw_set_color(c_red);
 		draw_text(100, 50, "Damage doubled!");
 	}
 	if(!obj_player.canDamage){
+		draw_set_color(c_aqua);
 		draw_text(125, 75, "Shielded from damage!");
 	}
 }
