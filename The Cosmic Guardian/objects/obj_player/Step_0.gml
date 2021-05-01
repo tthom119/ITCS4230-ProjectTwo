@@ -18,7 +18,7 @@ if can_shoot{
 			audio_play_sound(snd_laser, 1, false);
 		}
 		else{
-			inst.sprite_index = spr_player_bullet;
+			inst.sprite_index = spr_bullet;
 			audio_play_sound(snd_bullet, 1, false);
 		}
 	}

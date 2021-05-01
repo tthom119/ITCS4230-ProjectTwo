@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy1_bullet",
-    "path": "sprites/spr_enemy1_bullet/spr_enemy1_bullet.yy",
+    "name": "spr_fireball",
+    "path": "sprites/spr_fireball/spr_fireball.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy1_bullet",
+  "name": "obj_fireball",
   "tags": [],
   "resourceType": "GMObject",
 }

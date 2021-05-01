@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_bullet.wav",
-  "duration": 0.442574,
+  "duration": 1.96595192,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

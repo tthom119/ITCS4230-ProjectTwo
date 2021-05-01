@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_bullet",
-    "path": "sprites/spr_player_bullet/spr_player_bullet.yy",
+    "name": "spr_bullet",
+    "path": "sprites/spr_bullet/spr_bullet.yy",
   },
   "solid": false,
   "visible": true,

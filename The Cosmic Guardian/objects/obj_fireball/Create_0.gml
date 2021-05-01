@@ -1,0 +1,1 @@
+speed = bullet_speed;
