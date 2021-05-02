@@ -9,12 +9,14 @@ if(instance_exists(obj_player)){
 }
 if(instance_exists(obj_player)){
 	if(obj_player.isBuffed){
+		draw_set_font(font_powerUp)
 		draw_set_color(c_red);
-		draw_text(100, 50, "Damage doubled!");
+		draw_text(120, 50, "Damage doubled!");
 	}
 	if(!obj_player.canDamage){
+		draw_set_font(font_powerUp)
 		draw_set_color(c_aqua);
-		draw_text(125, 75, "Shielded from damage!");
+		draw_text(150, 75, "Shielded from damage!");
 	}
 }
 

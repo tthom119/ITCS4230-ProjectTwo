@@ -1,5 +1,6 @@
 if(canDamage){
 	health -= other.damage;
+	audio_play_sound(snd_impact, 2, false);
 }
 
 if(health <= 0){
