@@ -9,7 +9,7 @@ if can_shoot and begin_shooting{
 		if(instance_exists(obj_player)){
 			var bullet = instance_create_layer(x,y, "Instances", bullet_shot);
 			bullet.direction = point_direction(x, y, obj_player.x, obj_player.y);
-			bullet.parent = id;
+			bullet.damage = damage;
 			audio_play_sound(snd_enemy_bullet, 1, false);
 		}
 	}
