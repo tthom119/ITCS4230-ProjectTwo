@@ -1,4 +1,3 @@
-
 if keyboard_check(ord("A")) or keyboard_check(vk_left){
 	x -= flying_speed;
 }

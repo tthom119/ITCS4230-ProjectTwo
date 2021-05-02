@@ -1,15 +1,3 @@
-/*if(instance_exists(obj_enemy1) and canDamage){
-		var enemy = other.parent;
-		health -= enemy.damage;
-}
-else if(instance_exists(obj_enemy2) and canDamage){
-		var enemy = other.parent;
-		health -= enemy.damage;
-}
-else if(instance_exists(obj_enemy3) and canDamage){
-		var enemy = other.parent;
-		health -= enemy.damage;
-}*/
 if(canDamage){
 	health -= other.damage;
 }
@@ -20,4 +8,4 @@ if(health <= 0){
 }
 else{
 	instance_destroy(other);
-}
+	}
